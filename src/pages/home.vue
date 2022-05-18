@@ -8,8 +8,8 @@
 
 <script>
     import {mapGetters} from 'vuex';
-    import UsersList from './components/users-list/index.vue';
-    import BooksList from './components/books-list/index.vue';
+    import UsersList from '../components/users-list/index.vue';
+    import BooksList from '../components/books-list/index.vue';
 
     export default {
         name: 'Home',
